@@ -1,6 +1,4 @@
-var matn = prompt('Matn kiriting:');
-var num = num(matn);
-console.log('Matnda', num, 'ta harf unli.')
+
 function num(unlilar) {
     var num = 0;
     var unlilar = ['a', 'e', 'i', 'o', 'u'];
@@ -13,3 +11,6 @@ function num(unlilar) {
     }
     return num;
   }
+var matn = prompt('Matn kiriting:');
+var num = num(matn);
+console.log('Matnda', num, 'ta harf unli.')
